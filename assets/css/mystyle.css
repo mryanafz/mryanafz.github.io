@@ -1,3 +1,5 @@
+
+
 .service:hover i{
   color: #717cff !important;
   transition: 0.5s;
@@ -89,6 +91,19 @@
   box-shadow: -1px 5px 8px 0px rgba(87,87,87,0.21);
   -webkit-box-shadow: -1px 5px 8px 0px rgba(87,87,87,0.21);
   -moz-box-shadow: -1px 5px 8px 0px rgba(87,87,87,0.21);
+}
+
+.owl-dot span {
+  background: #d6d6d6 !important;
+}
+
+.owl-dot span:hover {
+  background: #a7aeff !important;
+}
+
+.owl-dot.active span {
+  background: #99a1ff !important;
+  transition: 0.5s;
 }
 
 
