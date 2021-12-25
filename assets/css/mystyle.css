@@ -1,4 +1,11 @@
 
+.btn-animate:hover .ratio-16x9 .play{
+  transform: scale(1.5);
+}
+
+.ratio-16x9 .play{
+  transition: 0.5s;
+}
 
 .service:hover i{
   color: #717cff !important;
