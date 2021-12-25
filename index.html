@@ -232,12 +232,17 @@
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow card-span btn-animate mb-3">
-                          <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/A1J8Sagl64s" title="YouTube video player"
+                          <div class="ratio ratio-16x9" id="ppp">
+                            <!-- <iframe src="https://www.youtube.com/embed/A1J8Sagl64s" title="YouTube video player"
                               frameborder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
-                            </iframe>
+                            </iframe> -->
+                            <img src="assets/img/web/admisi.jpg" alt="">
+                            <button style="background: none;" class="play"
+                              data-url='https://www.youtube.com/embed/A1J8Sagl64s'><i
+                                class="bi bi-play-fill text-white fs-7"></i>
+                            </button>
                           </div>
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill   me-1"></i>PLN UIW
@@ -249,11 +254,16 @@
                       <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/vFUURjsY17E" title="YouTube video player"
+                            <!-- <iframe src="https://www.youtube.com/embed/vFUURjsY17E" title="YouTube video player"
                               frameborder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
-                            </iframe>
+                            </iframe> -->
+                            <img src="assets/img/web/admisi.jpg" alt="">
+                            <button style="background: none;" class="play"
+                              data-url='https://www.youtube.com/embed/vFUURjsY17E'><i
+                                class="bi bi-play-fill text-white fs-7"></i>
+                            </button>
                           </div>
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN UP3
@@ -269,11 +279,16 @@
                       <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <iframe src="https://drive.google.com/file/d/1Y-pdVIoiXGjyh_QPHJfa4fy3Zpx7HMuT/preview"
+                            <!-- <iframe src="https://drive.google.com/file/d/1Y-pdVIoiXGjyh_QPHJfa4fy3Zpx7HMuT/preview"
                               frameborder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
-                            </iframe>
+                            </iframe> -->
+                            <img src="assets/img/web/admisi.jpg" alt="">
+                            <button style="background: none;" class="play"
+                              data-url='https://drive.google.com/file/d/1Y-pdVIoiXGjyh_QPHJfa4fy3Zpx7HMuT/preview'><i
+                                class="bi bi-play-fill text-white fs-7"></i>
+                            </button>
                           </div>
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN ULP
@@ -285,11 +300,16 @@
                       <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <iframe src="https://drive.google.com/file/d/1nM3rWRcitzPLf5nwrW_mBSTERwfw26Sk/preview"
+                            <!-- <iframe src="https://drive.google.com/file/d/1nM3rWRcitzPLf5nwrW_mBSTERwfw26Sk/preview"
                               frameborder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
-                            </iframe>
+                            </iframe> -->
+                            <img src="assets/img/web/admisi.jpg" alt="">
+                            <button style="background: none;" class="play"
+                              data-url='https://drive.google.com/file/d/1nM3rWRcitzPLf5nwrW_mBSTERwfw26Sk/preview'><i
+                                class="bi bi-play-fill text-white fs-7"></i>
+                            </button>
                           </div>
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN ULP
@@ -673,9 +693,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/pp.png" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/pp.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/pp.png" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/pp.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Microsoft
                               Office
                               Specialist
@@ -750,9 +770,9 @@
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/pln.png" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/pln.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/pln.png" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/pln.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">
                               PLN Competition From Home
                               <br>
@@ -1286,6 +1306,41 @@
         }
       }
     })
+
+    $(document).on('click', '.play', function (e) {
+      e.preventDefault();
+      play = $(this)
+      url = $(this).data('url')
+      console.log($(this).data('url'))
+
+      console.log($(this))
+
+      console.log($(this).parent())
+
+
+
+      $(this).parent().html(`<iframe src="` + url + `"
+                              frameborder = "0"
+                              allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowfullscreen >
+                            </iframe >`);
+
+
+
+      // email = $(this).data('email');
+      // var nama = $(this).data('nama');
+
+      // $('#pdfNama').html(nama);
+      // $('#modal-kembali').modal('show');
+    });
+
+
+
+
+
+
+
+
   </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap"
