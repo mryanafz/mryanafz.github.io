@@ -219,9 +219,9 @@
                 portfolioIsotope.arrange({
                     filter: this.getAttribute('data-filter')
                 });
-                portfolioIsotope.on('arrangeComplete', function () {
-                    AOS.refresh()
-                });
+                // portfolioIsotope.on('arrangeComplete', function () {
+                //     AOS.refresh()
+                // });
             }, true);
         }
 
@@ -254,13 +254,15 @@
     /**
      * Animation on scroll
      */
-    window.addEventListener('load', () => {
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-out',
-            once: true,
-            mirror: false
-        })
-    });
+    // window.addEventListener('load', () => {
+    //     AOS.init({
+    //         duration: 1000,
+    //         easing: 'ease-in-out',
+    //         once: true,
+    //         mirror: false
+    //     })
+    // });
+
+    new WOW().init();
 
 })()

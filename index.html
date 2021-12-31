@@ -29,7 +29,7 @@
   <!--    Stylesheets-->
   <!-- ===============================================-->
 
-  <link href="assets/css/aos.css" rel="stylesheet" />
+  <!-- <link href="assets/css/aos.css" rel="stylesheet" /> -->
   <link href="assets/css/theme.css" rel="stylesheet" />
   <link href="assets/css/magnific-popup.css" rel="stylesheet" />
   <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
@@ -43,6 +43,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+  <link href="assets/css/animate.min.css" rel="stylesheet" />
+
   <link href="assets/css/mystyle.css" rel="stylesheet" />
 
 
@@ -83,7 +86,7 @@
     </nav>
     <section class="py-0" id="home">
       <div class="bg-holder d-none d-md-block"
-        style="background-image:url(assets/img/gallery/pp-01.webp);background-position:right bottom;background-size:contain;margin-top:5.625rem;">
+        style="background-image:url(assets/img/gallery/pp-01.png);background-position:right bottom;background-size:contain;margin-top:5.625rem;">
       </div>
       <!--/.bg-holder-->
 
@@ -95,7 +98,7 @@
       <div class="container">
         <div class="row align-items-center min-vh-md-75 mt-7">
           <div class="col-md-7 col-lg-7 py-6 text-sm-start text-center">
-            <img src="assets/img/gallery/pp.webp" class="rounded-circle img-thumbnail" id="fp" alt="" width="150">
+            <img src="assets/img/gallery/pp.jpg" class="rounded-circle img-thumbnail" id="fp" alt="" width="150">
             <p class="fs-1 fs-lg-3 lh-1 text-primary mt-3 mb-0 mt-lg-7 mb-sm-0 pt-lg-4"><span
                 class="fw-semi-bold">Hello</span>
               saya</p>
@@ -127,13 +130,15 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-12 mx-auto align-items-center text-center">
-            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4 pt-5" id="tentang" data-aos="zoom-in" data-aos-delay="500">
-              Tentang Saya</h5>
-            <p data-aos="fade-up" data-aos-delay="1000">Saya <span class="text-primary fw-semi-bold">Muhammad Ryan
-                Afrizal</span>, fresh
-              graduete <span class="text-primary fw-semi-bold">S-1 Ilmu Komputer</span> dari <span
-                class="text-primary fw-semi-bold">Universitas Lambung Mangkurat</span>. Saya
+          <div class="col-12 mx-auto align-items-center text-center wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4 pt-5" id="tentang" data-aos="zoom-in" data-aos-delay="500">
+              Tentang Saya</h5> -->
+            <h6 class="mb-4 text-uppercase fw-light fs-1 mb-3 text-primary fw-bold" id="tentang"><i
+                class="bi bi-dash-lg"></i>
+              Tentang saya <i class="bi bi-dash-lg"></i></h6>
+            <p class="fs--1 fs-md-0">Saya Muhammad Ryan
+              Afrizal, fresh
+              graduete S-1 Ilmu Komputer dari Universitas Lambung Mangkurat. Saya
               seorang Web Developer, Motion Graphics Designer Graphics Designer dan Video Editor. Saya juga menyukai dan
               memiliki minat penelitian
               bidang Data
@@ -142,25 +147,25 @@
         </div>
         <div class="row mt-5 justify-content-center">
           <div class="col-lg-9">
-            <div class="row" data-aos="fade-up" data-aos-delay="1500">
-              <div class="col-md-3 text-center zoom service mb-4">
+            <div class="row">
+              <div class="col-md-3 text-center zoom service mb-4 wow fadeInUp" data-wow-delay="0.1s">
                 <i class="bi bi-display fs-5"></i>
                 <p class="fs-lg-0 fw-light ">Web Developer
                 </p>
               </div>
-              <div class="col-md-3 text-center zoom service mb-4">
+              <div class="col-md-3 text-center zoom service mb-4 wow fadeInUp" data-wow-delay="0.3s">
                 <i class="bi bi-pencil-square fs-5"></i>
                 <p class="fs-lg-0 fw-light ">
                   Motion Graphic Designer
                 </p>
               </div>
-              <div class="col-md-3 text-center zoom service mb-4">
+              <div class="col-md-3 text-center zoom service mb-4 wow fadeInUp" data-wow-delay="0.5s">
                 <i class="bi bi-vector-pen fs-5"></i>
                 <p class="fs-lg-0 fw-light ">
                   Graphic Designer
                 </p>
               </div>
-              <div class="col-md-3 text-center zoom service mb-4">
+              <div class="col-md-3 text-center zoom service mb-4 wow fadeInUp" data-wow-delay="0.7s">
                 <i class="bi bi-film fs-5"></i>
                 <p class="fs-lg-0 fw-light ">
                   Video Editor
@@ -189,29 +194,32 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center mb-4">
-            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-3 pt-5" id="project" data-aos="zoom-in" data-aos-delay="500">
-              Project</h5>
-            <h4 class="fw-light mb-3 fw-semi-bold" data-aos="zoom-in" data-aos-delay="1000">Website</h4>
+            <h6 class="mb-2 text-uppercase fw-light fs-1  text-primary fw-bold wow fadeInUp" data-wow-delay="0.1s"
+              id="project"><i class="bi bi-dash-lg"></i>
+              Project <i class="bi bi-dash-lg"></i></h6>
+            <!-- <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-3 pt-5" id="project" data-aos="zoom-in" data-aos-delay="500">
+              Project</h5> -->
+            <h4 class="fw-light fs-3 mb-3 fw-bold wow fadeInUp" data-wow-delay="0.5s">Website</h4>
             <!-- <p class="mb-5">Executive Trade International is an University Application Centre, guiding Bangladeshi
               students to Australian, British, Canadian and Irish universities!</p> -->
           </div>
         </div>
         <div class="row flex-center h-100 mb-5">
           <div class="col-xl-9">
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="1500">
-              <div class="col-md-6 mb-4">
-                <div class="card h-100 shadow card-span btn-animate"><img class="card-img-top"
-                    src="assets/img/web/jme.webp" alt="news" />
+            <div class="row justify-content-center">
+              <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="card card-gray h-100 card-span btn-animate"><img class="card-img-top"
+                    src="assets/img/web/jme.jpg" alt="news" />
                   <div class="card-body">
                     <h5 class="fs-lg-0 my-3">Website Jurnalis Murakata Ekstensia PERHIPTANI Kab. Hulu Sungai Tengah
                     </h5>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 mb-4">
+              <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                 <a href="https://admisiprofesi.ulm.ac.id" class="text-decoration-none" target="_blank">
-                  <div class=" card h-100 shadow card-span btn-animate">
-                    <img class="card-img-top" src="assets/img/web/admisi.webp" alt="news" />
+                  <div class=" card card-gray h-100 card-span btn-animate">
+                    <img class="card-img-top" src="assets/img/web/admisi.jpg" alt="news" />
                     <div class="card-body">
                       <h5 class="fs-lg-0 my-3">Admisi Profesi Universitas Lambung Mangkurat</h5>
                     </div>
@@ -224,7 +232,7 @@
 
         <div class="row mt-7 pt-7">
           <div class="col-lg-7 mx-auto text-center mb-4">
-            <h4 class="fw-light mb-3 fw-semi-bold" data-aos="zoom-in" data-aos-delay="500">Motion Graphics</h4>
+            <h4 class="fw-light fs-3 mb-3 fw-bold wow fadeInUp" data-wow-delay="0.1s">Motion Graphic</h4>
           </div>
         </div>
         <div class="row flex-center h-100 mb-5">
@@ -233,8 +241,8 @@
               <div class="owl-stage-outer">
                 <div class="owl-stage">
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
-                    <div class="row px-lg-5 mb-2" data-aos="fade-up" data-aos-delay="1500">
-                      <div class="col-md-6 mb-4">
+                    <div class="row px-lg-5 mb-2">
+                      <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card h-100 card-gray card-span btn-animate mb-3">
                           <div class="ratio ratio-16x9">
                             <!-- <iframe src="https://www.youtube.com/embed/A1J8Sagl64s" title="YouTube video player"
@@ -242,7 +250,7 @@
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
                             </iframe> -->
-                            <img src="assets/img/thumb/pln-kalselteng.webp" alt="">
+                            <img src="assets/img/thumb/pln-kalselteng.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://www.youtube.com/embed/A1J8Sagl64s'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -251,11 +259,11 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill   me-1"></i>PLN UIW
                               Kalselteng</span>
-                            <h5 class="fs-lg-0 my-3">New PLN Mobile - PT PLN (Persero) UIW Kalselteng</h5>
+                            <h5 class="fs-0 my-3">New PLN Mobile - PT PLN (Persero) UIW Kalselteng</h5>
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6 mb-4">
+                      <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
                             <!-- <iframe src="https://www.youtube.com/embed/vFUURjsY17E" title="YouTube video player"
@@ -263,7 +271,7 @@
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                               allowfullscreen>
                             </iframe> -->
-                            <img src="assets/img/thumb/pln-kotabaru.webp" alt="">
+                            <img src="assets/img/thumb/pln-kotabaru.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://www.youtube.com/embed/vFUURjsY17E'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -272,7 +280,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN UP3
                               Kotabaru</span>
-                            <h5 class="fs-lg-0 my-3">Safety Induction - PT PLN (Persero) UP3 Kotabaru</h5>
+                            <h5 class="fs-0 my-3">Safety Induction - PT PLN (Persero) UP3 Kotabaru</h5>
                           </div>
                         </div>
                       </div>
@@ -281,9 +289,9 @@
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/pln-batulicin.webp" alt="">
+                            <img src="assets/img/thumb/pln-batulicin.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1Y-pdVIoiXGjyh_QPHJfa4fy3Zpx7HMuT/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -292,14 +300,14 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN ULP
                               Batulicin</span>
-                            <h5 class="fs-lg-0 my-3">Safety Induction - PT PLN (Persero) ULP Batulicin</h5>
+                            <h5 class="fs-0 my-3">Safety Induction - PT PLN (Persero) ULP Batulicin</h5>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/pln-satui.webp" alt="">
+                            <img src="assets/img/thumb/pln-satui.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1nM3rWRcitzPLf5nwrW_mBSTERwfw26Sk/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -308,7 +316,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN ULP
                               Satui</span>
-                            <h5 class="fs-lg-0 my-3">Safety Induction - PT PLN (Persero) ULP Satui
+                            <h5 class="fs-0 my-3">Safety Induction - PT PLN (Persero) ULP Satui
                             </h5>
                           </div>
                         </div>
@@ -318,9 +326,9 @@
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/pancasila.webp" alt="">
+                            <img src="assets/img/thumb/pancasila.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1wsvajcV4ZkWy9PqGr4Q8Y1Tcy2B5p8fy/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -329,14 +337,14 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PUSPEKA
                               Kemdikbud</span>
-                            <h5 class="fs-lg-0 my-3">Hari Lahir Pancasila</h5>
+                            <h5 class="fs-0 my-3">Hari Lahir Pancasila</h5>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/pln-cfh.webp" alt="">
+                            <img src="assets/img/thumb/pln-cfh.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1Qt9BKsMDy51eUlM39hc0MLXW-lCvj7vf/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -345,7 +353,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>PLN UIW
                               Kalselteng</span>
-                            <h5 class="fs-lg-0 my-3">Peran Listrik Ditengah Pandemi
+                            <h5 class="fs-0 my-3">Peran Listrik Ditengah Pandemi
                             </h5>
                           </div>
                         </div>
@@ -355,9 +363,9 @@
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
                     <div class="row px-lg-5 mb-2 justify-content-center">
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/covid.webp" alt="">
+                            <img src="assets/img/thumb/covid.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/17TOkNKxANRYUeOdlg4cYnmURP9_JF0NA/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -366,7 +374,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>Universitas Gadjah
                               Mada</span>
-                            <h5 class="fs-lg-0 my-3">Pandemi Covid-19</h5>
+                            <h5 class="fs-0 my-3">Pandemi Covid-19</h5>
                           </div>
                         </div>
                       </div>
@@ -379,7 +387,7 @@
         </div>
         <div class="row mt-7 pt-7">
           <div class="col-lg-7 mx-auto text-center mb-4">
-            <h4 class="fw-light mb-3 mt-5 fw-semi-bold" data-aos="zoom-in" data-aos-delay="500">Graphics Design</h4>
+            <h4 class="fw-light fs-3 mb-3 fw-bold wow fadeInUp" data-wow-delay="0.1s">Graphics Design</h4>
             <!-- <p class="mb-5">Executive Trade International is an University Application Centre, guiding Bangladeshi
               students to Australian, British, Canadian and Irish universities!</p> -->
           </div>
@@ -387,8 +395,8 @@
         <div class="row flex-center h-100">
           <div class="col-xl-10 portfolio" id="portfolio">
             <div class="container">
-              <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="1000">
+              <div class="row wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-12 d-flex justify-content-center">
                   <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active d-none d-lg-inline-block">Semua</li>
                     <li data-filter=".filter-poster" class="d-none d-lg-inline-block">Ilustrasi</li>
@@ -401,70 +409,70 @@
                 </div>
               </div>
 
-              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="1500">
+              <div class="row portfolio-container wow fadeInUp" data-wow-delay="0.1s">
                 <!-- ========================== -->
                 <!-- POSTER -->
                 <!-- ========================== -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg1.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg1.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg1.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg1.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-product">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg7.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg7.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg7.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg7.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a2.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a2.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a2.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a2.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a4.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a4.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a4.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a4.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg2.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg2.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg2.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg2.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg3.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg3.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg3.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg3.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-leaflet">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/ll1.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/ll1.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/ll1.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/ll1.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-poster">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg4.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg4.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg4.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg4.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
@@ -475,16 +483,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-product">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg5.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg5.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg5.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg5.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-product">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/dg6.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/dg6.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/dg6.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/dg6.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
@@ -495,16 +503,16 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-leaflet">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/ll2.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/ll2.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/ll2.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/ll2.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-leaflet">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/ll3.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/ll3.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/ll3.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/ll3.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
@@ -515,32 +523,32 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a1.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a1.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a1.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a1.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a3.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a3.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a3.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a3.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a5.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a5.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a5.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a5.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-artikel">
                   <div class="zoom sd rounded-border">
-                    <a href="assets/img/dg/a6.webp" class="portfolio-lightbox">
-                      <img src="assets/img/dg/a6.webp" class="img-fluid shadow-lg rounded-border" alt="">
+                    <a href="assets/img/dg/a6.jpg" class="portfolio-lightbox">
+                      <img src="assets/img/dg/a6.jpg" class="img-fluid shadow-lg rounded-border" alt="">
                     </a>
                   </div>
                 </div>
@@ -551,22 +559,23 @@
 
         <div class="row mt-7 pt-7">
           <div class="col-lg-7 mx-auto text-center mb-4">
-            <h4 class="fw-light mb-3 fw-semi-bold" data-aos="zoom-in" data-aos-delay="500">Video Editing</h4>
+            <h4 class="fw-light fs-3 mb-3 fw-bold wow fadeInUp" data-wow-delay="0.1s">Video Editing</h4>
             <!-- <p class="mb-5">Executive Trade International is an University Application Centre, guiding Bangladeshi
                 students to Australian, British, Canadian and Irish universities!</p> -->
           </div>
         </div>
         <div class="row flex-center h-100 mb-5">
           <div class="col-xl-9">
-            <div class="owl-carousel owl-theme galeri-carousel mb-5 owl-loaded owl-drag">
+            <div class="owl-carousel owl-theme galeri-carousel mb-5 owl-loaded owl-drag wow fadeInUp"
+              data-wow-delay="0.1s">
               <div class="owl-stage-outer">
                 <div class="owl-stage">
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
-                    <div class="row px-lg-5 mb-2" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="row px-lg-5 mb-2">
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/stat.webp" alt="">
+                            <img src="assets/img/thumb/stat.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://www.youtube.com/embed/fOeQovaJ84o'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -576,16 +585,16 @@
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill   me-1"></i>Statistika
                               FMIPA
                               ULM</span>
-                            <h5 class="fs-lg-0 my-3">Profil Program Studi Statistika FMIPA Universitas Lambung
+                            <h5 class="fs-0 my-3">Profil Program Studi Statistika FMIPA Universitas Lambung
                               Mangkurat
                             </h5>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/vaksin.webp" alt="">
+                            <img src="assets/img/thumb/vaksin.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://www.youtube.com/embed/Tz0iNGdniEY'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -594,7 +603,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>Statistika FMIPA
                               ULM</span>
-                            <h5 class="fs-lg-0 my-3">Pengabdian Kepada Masyarakat Prodi Statistika FMIPA ULM -
+                            <h5 class="fs-0 my-3">Pengabdian Kepada Masyarakat Prodi Statistika FMIPA ULM -
                               Vaksinasi
                               Skala Mikro di Kec. Cempaka</h5>
                           </div>
@@ -605,9 +614,9 @@
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/qris.webp" alt="">
+                            <img src="assets/img/thumb/qris.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1xSpIzwroexQVGamdwC3cFAKWBLhJfI2H/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -616,15 +625,15 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>Bank Indonesia
                               Kalsel</span>
-                            <h5 class="fs-lg-0 my-3">
+                            <h5 class="fs-0 my-3">
                               QRIS - Quick Response Indonesia Standard</h5>
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6 mb-4">
-                        <div class="card h-100 shadow card-span btn-animate">
+                        <div class="card h-100 card-gray card-span btn-animate">
                           <div class="ratio ratio-16x9">
-                            <img src="assets/img/thumb/sensus.webp" alt="">
+                            <img src="assets/img/thumb/sensus.jpg" alt="">
                             <button style="background: none; border: none;" class="play"
                               data-url='https://drive.google.com/file/d/1RmNaENIdfFgU8lAvT1bK3KYn8qJGJsEY/preview'><i
                                 class="bi bi-play-fill text-white fs-7"></i>
@@ -633,7 +642,7 @@
                           <div class="card-body">
                             <span class="fs--1 text-primary"><i class="bi bi-bookmark-fill me-1"></i>BPS Kota
                               Banjarbaru</span>
-                            <h5 class="fs-lg-0 my-3">Sensus Penduduk 2020</h5>
+                            <h5 class="fs-0 my-3">Sensus Penduduk 2020</h5>
                           </div>
                         </div>
                       </div>
@@ -664,22 +673,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center my-5">
-            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4 pt-5" id="archievments" data-aos="zoom-in" data-aos-delay="500">
-              Archievments</h5>
+            <h6 class="mb-2 text-uppercase fw-light fs-1  text-primary fw-bold wow fadeInUp" data-wow-delay="0.1s"
+              id="archievments"><i class="bi bi-dash-lg wow fadeInUp" data-wow-delay="0.1s"></i>
+              Archievments <i class="bi bi-dash-lg"></i></h6>
           </div>
         </div>
-        <div class="row portfolio flex-center h-100">
+        <div class="row portfolio flex-center h-100 wow fadeInUp" data-wow-delay="0.3s">
           <div class="col-xl-12">
             <div class="owl-carousel owl-theme galeri-carousel mb-5 owl-loaded owl-drag">
               <div class="owl-stage-outer">
                 <div class="owl-stage">
                   <div class="owl-item active" style="width: 290.667px; margin-right: 20px;">
-                    <div class="row px-lg-5 mb-2" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="row px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/ml.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/ml.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/ml.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/ml.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Machine
                               Learning
                               untuk
@@ -692,9 +702,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/pp.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/pp.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/pp.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/pp.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Microsoft
                               Office
                               Specialist
@@ -706,9 +716,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/animasi.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/animasi.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/animasi.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/animasi.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Lomba
                               Animasi
                               Nasional
@@ -724,9 +734,9 @@
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/py.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/py.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/py.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/py.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Introduction to
                               Data Science
                               with Python
@@ -738,9 +748,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/r.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/r.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/r.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/r.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Introduction to
                               Data Science
                               with R
@@ -752,9 +762,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/excel.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/excel.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/excel.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/excel.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Free Trial
                               Excel
                               <br>
@@ -769,9 +779,9 @@
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/pln.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/pln.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/pln.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/pln.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">
                               PLN Competition From Home
                               <br>
@@ -782,9 +792,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/pena.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/pena.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/pena.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/pena.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Pekan Ilmiah
                               dan Penalaran Mahasiswa
                               <br>
@@ -796,9 +806,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/infografis.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/infografis.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/infografis.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/infografis.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Lomba Literasi
                               Smart
                               City
@@ -814,9 +824,9 @@
                     <div class="row px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/cp-js.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/cp-js.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/cp-js.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/cp-js.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">JavaScript
                               Dasar
                               <br>
@@ -827,9 +837,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/cp-async.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/cp-async.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/cp-async.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/cp-async.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">JavaScript
                               Async
                               <br>
@@ -840,9 +850,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/cp-jquery.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/cp-jquery.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/cp-jquery.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/cp-jquery.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">JQuery
                               Dasar
                               <br>
@@ -857,9 +867,9 @@
                     <div class="row justify-content-center px-lg-5 mb-2">
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/cp-py.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/cp-py.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/cp-py.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/cp-py.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">Pemrograman
                               Python
                               <br>
@@ -870,9 +880,9 @@
                       </div>
                       <div class="col-md-4 mb-4">
                         <div class="portfolio-wrap sd rounded-border btn-animate mt-3">
-                          <img src="assets/img/arc/cp-html-css.webp" class="img-fluid rounded-border" alt="">
+                          <img src="assets/img/arc/cp-html-css.jpg" class="img-fluid rounded-border" alt="">
                           <div class="portfolio-links">
-                            <a href="assets/img/arc/cp-html-css.webp" data-gallery="portfolioGallery"
+                            <a href="assets/img/arc/cp-html-css.jpg" data-gallery="portfolioGallery"
                               class="portfolio-lightbox fs-1 btn-animate" style="text-decoration: none;">HTML & CSS
                               <br>
                               <span class="fs--1 text-gray-100">CODEPOLITAN CERTIFIED</span>
@@ -906,39 +916,40 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center my-5">
-            <h5 class="fw-light fs-3 fs-lg-5 lh-sm mb-4 pt-5" id="contact" data-aos="zoom-in" data-aos-delay="500">
-              Kontak</h5>
+            <h6 class="mb-2 text-uppercase fw-light fs-1  text-primary fw-bold" id="contact"><i
+                class="bi bi-dash-lg wow fadeInUp" data-wow-delay="0.1s"></i>
+              Kontak <i class="bi bi-dash-lg"></i></h6>
           </div>
         </div>
         <div class="row flex-center h-100">
           <div class="col-xl-10">
-            <div class="row h-100 justify-content-center" data-aos="fade-up" data-aos-delay="1500">
-              <div class="col-md-4 mb-4">
+            <div class="row h-100 justify-content-center">
+              <div class="col-md-4 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                 <a href="https://www.instagram.com/mryanafz" target="_blank">
-                  <div class="card h-100 shadow card-span zoom">
+                  <div class="card h-100 card-gray card-span zoom">
                     <div class="card-body text-center pb-3 px-0">
                       <i class=" bi bi-instagram fs-5 text-primary"></i>
-                      <p class="fw-normal mb-0 text-800">mryanafz</p>
+                      <p class="fw-normal mb-0 text-1000">mryanafz</p>
                     </div>
                   </div>
                 </a>
               </div>
-              <div class="col-md-4 mb-4">
+              <div class="col-md-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                 <a href="mailto:ryan.afrizal55@gmail.com" target="_blank">
-                  <div class="card h-100 shadow card-span zoom">
+                  <div class="card h-100 card-gray card-span zoom">
                     <div class="card-body text-center pb-3 px-0">
                       <i class="bi bi-envelope-open fs-5 text-primary"></i>
-                      <p class="fw-normal mb-0 text-800">ryan.afrizal55@gmail.com</p>
+                      <p class="fw-normal mb-0 text-1000">ryan.afrizal55@gmail.com</p>
                     </div>
                   </div>
                 </a>
               </div>
-              <div class="col-md-4 mb-4">
+              <div class="col-md-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
                 <a href="https://api.whatsapp.com/send?phone=6285391024203" target="_blank">
-                  <div class="card h-100 shadow card-span zoom">
+                  <div class="card h-100 card-gray card-span zoom">
                     <div class="card-body text-center pb-3 px-0">
                       <i class="bi bi-whatsapp fs-5 text-primary"></i>
-                      <p class="fw-normal mb-0 text-800">085391024203</p>
+                      <p class="fw-normal mb-0 text-1000">085391024203</p>
                     </div>
                   </div>
                 </a>
@@ -974,13 +985,14 @@
 
       <div class="container text-center text-lg-start">
         <div class="row justify-content-center justify-content-lg-between pb-2">
-          <div class="col-12 col-lg-auto mb-lg-0"><a class="d-flex align-items-center fw-semi-bold fs-3" href="#">
+          <div class="col-12 col-lg-auto mb-lg-0 wow fadeInUp" data-wow-delay="0.1s"><a
+              class="d-flex align-items-center fw-semi-bold fs-3" href="#">
             </a>
             <p class="my-3 text-100 fw-light">Banjarbaru, Kalimantan Selatan<br />
               <span class="fw-bold">Indonesia</span>
             </p>
           </div>
-          <div class="col-auto mb-4 d-flex align-items-end">
+          <div class="col-auto mb-4 d-flex align-items-end wow fadeInUp" data-wow-delay="0.3s">
             <ul class="list-unstyled list-inline mb-0">
               <li class="list-inline-item me-3 btn-animate"><a class="text-decoration-none"
                   href="https://www.instagram.com/mryanafz" target="_blank">
@@ -1062,8 +1074,10 @@
   <!--    JavaScripts-->
   <!-- ===============================================-->
   <!-- <script src="vendors/@popperjs/popper.min.js"></script> -->
-  <script src="assets/js/aos.js"></script>
+  <!-- <script src="assets/js/aos.js"></script> -->
   <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+  <script src="assets/js/wow.min.js"></script>
   <script src="vendors/is/is.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>
   <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script> -->
@@ -1079,6 +1093,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script src="assets/js/myjs.js"></script>
+
 
 
   <script>
@@ -1182,6 +1197,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet">
+
+
 </body>
 
 </html>
