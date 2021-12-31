@@ -1,3 +1,6 @@
+svg{
+  margin-bottom: -2px;
+}
 
 .btn-animate:hover .ratio-16x9 .play{
   transform: scale(1.5);
