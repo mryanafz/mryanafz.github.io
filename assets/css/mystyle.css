@@ -108,11 +108,11 @@ svg{
 }
 
 .owl-dot span:hover {
-  background: #a7aeff !important;
+  background: #ffe5b4 !important;
 }
 
 .owl-dot.active span {
-  background: #99a1ff !important;
+  background: #ffb429 !important;
   transition: 0.5s;
 }
 
